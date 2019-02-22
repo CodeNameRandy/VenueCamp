@@ -1,0 +1,25 @@
+/*style images*/
+.thumbnail img {
+    width: 100%;
+
+}
+/*get rid of padding around image*/
+.thumbnail {
+    padding: 0;
+}
+/*place padding around name and description*/
+    /*selecting only caption-full's that are inside a thumbnail*/
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.delete-form{
+    display: inline;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
