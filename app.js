@@ -21,8 +21,7 @@ var commentRoutes       = require("./routes/comments"),
 mongoose.connect("mongodb+srv://codenamerandy:1Jackson!@cluster0-3mqic.mongodb.net/yelp_camp?retryWrites=true");
 app.use(bodyParser.urlencoded({extended: true}));
 
-/*mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser: true});*/
-app.use(bodyParser.urlencoded({extended: true}));
+
 //use method override
 app.use(methodOverride("_method"));
 app.set("view engine", "ejs");
