@@ -18,7 +18,7 @@ var commentRoutes       = require("./routes/comments"),
     campgroundRoutes    = require("./routes/campgrounds"),
     indexRoutes         = require("./routes/index");
 
-mongoose.connect("mongodb+srv://codenamerandy:1jackson1@cluster0-umfzb.mongodb.net/yelp_camp?retryWrites=true", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://codenamerandy:1jackson1@cluster0-umfzb.mongodb.net/yelp_camp?retryWrites=true");
 
     
 
